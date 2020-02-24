@@ -13,13 +13,32 @@
             Charles 的项目列表
           </v-card-subtitle>
           <v-card-actions class="justify-center">
-            <v-btn icon><v-icon>mdi-git</v-icon></v-btn>
-            <v-btn icon><v-icon>mdi-telegram</v-icon></v-btn>
-            <v-btn icon><v-icon>mdi-web</v-icon></v-btn>
-            <v-btn icon><v-icon>mdi-email</v-icon></v-btn>
+            <v-btn
+              icon
+              @click.stop="redirect_url('https://github.com/SteveCharlesYang')"
+              ><v-icon>mdi-git</v-icon></v-btn
+            >
+            <v-btn icon @click.stop="redirect_url('https://t.me/CharlesYang')"
+              ><v-icon>mdi-telegram</v-icon></v-btn
+            >
+            <v-btn icon @click.stop="redirect_url('https://0x7f.cc')"
+              ><v-icon>mdi-web</v-icon></v-btn
+            >
+            <v-btn icon @click.stop="redirect_url('mailto:Charles@0x7f.cc')"
+              ><v-icon>mdi-email</v-icon></v-btn
+            >
           </v-card-actions>
         </v-col>
       </v-row>
     </v-container>
   </v-navigation-drawer>
 </template>
+<script>
+export default {
+  methods: {
+    redirect_url(url) {
+      window.location.href = url;
+    }
+  }
+};
+</script>
