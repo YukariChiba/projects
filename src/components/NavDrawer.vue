@@ -1,0 +1,25 @@
+<template>
+  <v-navigation-drawer app class="navdrawer" dark>
+    <v-container fill-height>
+      <v-row justify="center" align="center">
+        <v-avatar size="96" v-ripple v-on="on">
+          <v-img src="@/assets/icon.jpg" />
+        </v-avatar>
+        <v-col cols="12">
+          <v-card-title class="white--text justify-center">
+            0x7f Projects
+          </v-card-title>
+          <v-card-subtitle class="white--text text-center">
+            Charles 的项目列表
+          </v-card-subtitle>
+          <v-card-actions class="justify-center">
+            <v-btn icon><v-icon>mdi-git</v-icon></v-btn>
+            <v-btn icon><v-icon>mdi-telegram</v-icon></v-btn>
+            <v-btn icon><v-icon>mdi-web</v-icon></v-btn>
+            <v-btn icon><v-icon>mdi-email</v-icon></v-btn>
+          </v-card-actions>
+        </v-col>
+      </v-row>
+    </v-container>
+  </v-navigation-drawer>
+</template>

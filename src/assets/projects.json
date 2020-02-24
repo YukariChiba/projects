@@ -1,0 +1,344 @@
+{
+  "projects": [
+    {
+      "name": "UESTC Mirrors Reloaded",
+      "desc": "电子科技大学的第二版镜像站。",
+      "status": "wip",
+      "start": "2020-01-15",
+      "tags": ["official", "nodejs"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://gitlab.com/uestclug/uestc-mirrors-preview"
+        },
+        {
+          "icon": "web",
+          "url": "https://nomirror.uestclug.org"
+        }
+      ]
+    },
+    {
+      "name": "SOSCONF.zh 2020",
+      "desc": "中文学生开源年会 2020 网站",
+      "status": "wip",
+      "start": "2020-01-15",
+      "tags": ["official", "nodejs"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://gitlab.com/sosconf_zh/sosconf_zh.gitlab.io"
+        },
+        {
+          "icon": "web",
+          "url": "https://2020.zh.sosconf.org"
+        }
+      ]
+    },
+    {
+      "name": "ThreeSome for MC",
+      "desc": "Telegram@threesome_bot 的 MC 重制版本",
+      "status": "abandoned",
+      "start": "2020-01-15",
+      "tags": ["NSFW", "java"],
+      "link": []
+    },
+    {
+      "name": "Easy Minecraft Mod Manager",
+      "desc": "Minecraft Mod 包管理器",
+      "status": "abandoned",
+      "start": "2020-01-15",
+      "tags": ["minecraft", "python"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://github.com/SteveCharlesYang/emmm"
+        }
+      ]
+    },
+    {
+      "name": "毕业设计",
+      "desc": "基于 OpenEMR 的共享平台",
+      "status": "wip",
+      "start": "2020-01-15",
+      "tags": ["official", "nodejs"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://github.com/SteveCharlesYang/fyp-dockers"
+        }
+      ]
+    },
+    {
+      "name": "MC @ UESTC",
+      "desc": "UESTC LUG 支持建立的 MC 服务器",
+      "status": "maintaining",
+      "start": "2020-01-15",
+      "tags": ["minecraft", "maintenance"],
+      "link": [
+        {
+          "icon": "web",
+          "url": "https://mc.uestc.app"
+        }
+      ]
+    },
+    {
+      "name": "银杏服务器今天宕机了吗",
+      "desc": "UESTC 内外网服务监测",
+      "status": "finished",
+      "start": "2020-01-15",
+      "tags": ["javascript"],
+      "link": [
+        {
+          "icon": "web",
+          "url": "https://up.uestc.app"
+        }
+      ]
+    },
+    {
+      "name": "UESTC Mirrors [REDACTED]",
+      "desc": "电子科技大学的第一版镜像站。",
+      "status": "finished",
+      "start": "2020-01-15",
+      "tags": ["official", "javascript"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://github.com/uestclug/mirrors-autoindex"
+        },
+        {
+          "icon": "web",
+          "url": "https://mirrors.uestc.cn"
+        },
+        {
+          "icon": "web",
+          "url": "https://iptv.uestc.edu.cn"
+        }
+      ]
+    },
+    {
+      "name": "NIACNET",
+      "desc": "社团名义运作的虚拟网络",
+      "status": "maintaining",
+      "start": "2020-01-15",
+      "tags": ["maintenance"],
+      "link": [
+        {
+          "icon": "web",
+          "url": "https://net.nia.ac.cn"
+        }
+      ]
+    },
+    {
+      "name": "NetUni0nTerm",
+      "desc": "网管会招新题其二-终端",
+      "status": "finished",
+      "start": "2020-01-15",
+      "tags": ["javascript"],
+      "link": [
+        {
+          "icon": "web",
+          "url": "https://netunionterm.herokuapp.com"
+        },
+        {
+          "icon": "git",
+          "url": "https://github.com/SteveCharlesYang/NetUnionTerm"
+        }
+      ]
+    },
+    {
+      "name": "NetUni0nRecruit",
+      "desc": "网管会招新题其一-招新报名",
+      "status": "finished",
+      "start": "2020-01-15",
+      "tags": ["javascript"],
+      "link": [
+        {
+          "icon": "web",
+          "url": "https://netunionrecruit.herokuapp.com"
+        },
+        {
+          "icon": "git",
+          "url": "https://github.com/SteveCharlesYang/NetUnionTerm"
+        }
+      ]
+    },
+    {
+      "name": "Niantic Story",
+      "desc": "Ingress 同人文字游戏",
+      "status": "abandoned",
+      "start": "2020-01-15",
+      "tags": ["python"],
+      "link": []
+    },
+    {
+      "name": "GuGuPrint",
+      "desc": "咕咕机 Telegram 打印机器人",
+      "status": "finished",
+      "start": "2020-01-15",
+      "tags": ["python"],
+      "link": [
+        {
+          "icon": "telegram",
+          "url": "https://t.me/GuGuPrintBot"
+        },
+        {
+          "icon": "git",
+          "url": "https://github.com/SteveCharlesYang/GuGuPrint"
+        }
+      ]
+    },
+    {
+      "name": "YingYingYing",
+      "desc": "将网页全部相关字替换成”嘤“的脚本",
+      "status": "abandoned",
+      "start": "2020-01-15",
+      "tags": ["javascript"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://github.com/SteveCharlesYang/ying"
+        }
+      ]
+    },
+    {
+      "name": "QZone-Sec",
+      "desc": "查看QQ空间秘密的脚本",
+      "status": "deprecated",
+      "start": "2020-01-15",
+      "tags": ["python"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://github.com/SteveCharlesYang/QZone-Sec"
+        }
+      ]
+    },
+    {
+      "name": "Coupleter",
+      "desc": "基于 tensorflow-lite + firebase 的自动对对联 App",
+      "status": "deprecated",
+      "start": "2020-01-15",
+      "tags": ["android"],
+      "link": []
+    },
+    {
+      "name": "I.A.M.S.",
+      "desc": "从属NIA-CN的情报收集系统",
+      "status": "deprecated",
+      "start": "2020-01-15",
+      "tags": ["python", "nodejs"],
+      "link": []
+    },
+    {
+      "name": "IITCm Prime",
+      "desc": "适合Prime版本的IITC",
+      "status": "deprecated",
+      "start": "2020-01-15",
+      "tags": ["android"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://github.com/SteveCharlesYang/IITCm"
+        }
+      ]
+    },
+    {
+      "name": "QZone Bot",
+      "desc": "QQ空间 自动化消息 Bot",
+      "status": "deprecated",
+      "start": "2020-01-15",
+      "tags": ["python"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://github.com/SteveCharlesYang/QZone-Bot"
+        }
+      ]
+    },
+    {
+      "name": "iXuMin",
+      "desc": "耗费时间增加姿势水平的 App",
+      "status": "deprecated",
+      "start": "2020-01-15",
+      "tags": ["android"],
+      "link": []
+    },
+    {
+      "name": "Mineland",
+      "desc": "史诗级的 Minecraft 服务器",
+      "status": "deprecated",
+      "start": "2020-01-15",
+      "tags": ["minecraft", "maintenance"],
+      "link": []
+    }
+  ],
+  "tags": {
+    "official": {
+      "name": "正规项目",
+      "icon": "briefcase",
+      "color": "primary"
+    },
+    "NSFW": {
+      "name": "NSFW",
+      "icon": "close-octagon",
+      "color": "error"
+    },
+    "minecraft": {
+      "name": "MC",
+      "icon": "minecraft",
+      "color": "success"
+    },
+    "nodejs": {
+      "name": "NodeJS",
+      "icon": "nodejs",
+      "color": "success"
+    },
+    "python": {
+      "name": "Python",
+      "icon": "language-python",
+      "color": "primary"
+    },
+    "java": {
+      "name": "Java",
+      "icon": "language-java",
+      "color": "warning"
+    },
+    "javascript": {
+      "name": "JavaScript",
+      "icon": "language-javascript",
+      "color": "warning"
+    },
+    "maintenance": {
+      "name": "运维",
+      "icon": "server",
+      "color": "primary"
+    },
+    "android": {
+      "name": "Android",
+      "icon": "android",
+      "color": "success"
+    }
+  },
+  "status": {
+    "finished": {
+      "name": "完成",
+      "color": "success"
+    },
+    "abandoned": {
+      "name": "咕咕咕",
+      "color": "error"
+    },
+    "wip": {
+      "name": "正在施工",
+      "color": "primary"
+    },
+    "deprecated": {
+      "name": "已无效",
+      "color": "default"
+    },
+    "maintaining": {
+      "name": "维护中",
+      "color": "success"
+    }
+  }
+}
