@@ -4,7 +4,7 @@
       "name": "UESTC Mirrors Reloaded",
       "desc": "电子科技大学的第二版镜像站。",
       "status": "wip",
-      "start": "2020-01-15",
+      "start": "2020-01-30",
       "tags": ["official", "nodejs"],
       "link": [
         {
@@ -21,7 +21,7 @@
       "name": "SOSCONF.zh 2020",
       "desc": "中文学生开源年会 2020 网站",
       "status": "wip",
-      "start": "2020-01-15",
+      "start": "2020-01-19",
       "tags": ["official", "nodejs"],
       "link": [
         {
@@ -38,7 +38,7 @@
       "name": "ThreeSome for MC",
       "desc": "Telegram@threesome_bot 的 MC 重制版本",
       "status": "abandoned",
-      "start": "2020-01-15",
+      "start": "2020-02-18",
       "tags": ["NSFW", "java"],
       "link": []
     },
@@ -59,7 +59,7 @@
       "name": "毕业设计",
       "desc": "基于 OpenEMR 的共享平台",
       "status": "wip",
-      "start": "2020-01-15",
+      "start": "2019-10",
       "tags": ["official", "nodejs"],
       "link": [
         {
@@ -72,7 +72,7 @@
       "name": "MC @ UESTC",
       "desc": "UESTC LUG 支持建立的 MC 服务器",
       "status": "maintaining",
-      "start": "2020-01-15",
+      "start": "2019-10",
       "tags": ["minecraft", "maintenance"],
       "link": [
         {
@@ -85,7 +85,7 @@
       "name": "银杏服务器今天宕机了吗",
       "desc": "UESTC 内外网服务监测",
       "status": "finished",
-      "start": "2020-01-15",
+      "start": "2019-10",
       "tags": ["javascript"],
       "link": [
         {
@@ -119,7 +119,7 @@
       "name": "NIACNET",
       "desc": "社团名义运作的虚拟网络",
       "status": "maintaining",
-      "start": "2020-01-15",
+      "start": "2019",
       "tags": ["maintenance"],
       "link": [
         {
@@ -132,7 +132,7 @@
       "name": "NetUni0nTerm",
       "desc": "网管会招新题其二-终端",
       "status": "finished",
-      "start": "2020-01-15",
+      "start": "2019-10-13",
       "tags": ["javascript"],
       "link": [
         {
@@ -149,7 +149,7 @@
       "name": "NetUni0nRecruit",
       "desc": "网管会招新题其一-招新报名",
       "status": "finished",
-      "start": "2020-01-15",
+      "start": "2019-10-12",
       "tags": ["javascript"],
       "link": [
         {
@@ -166,7 +166,7 @@
       "name": "Niantic Story",
       "desc": "Ingress 同人文字游戏",
       "status": "abandoned",
-      "start": "2020-01-15",
+      "start": "2019-10",
       "tags": ["python"],
       "link": []
     },
@@ -174,7 +174,7 @@
       "name": "GuGuPrint",
       "desc": "咕咕机 Telegram 打印机器人",
       "status": "finished",
-      "start": "2020-01-15",
+      "start": "2017-09-13",
       "tags": ["python"],
       "link": [
         {
@@ -191,7 +191,7 @@
       "name": "YingYingYing",
       "desc": "将网页全部相关字替换成”嘤“的脚本",
       "status": "abandoned",
-      "start": "2020-01-15",
+      "start": "2019-05-24",
       "tags": ["javascript"],
       "link": [
         {
@@ -204,7 +204,7 @@
       "name": "QZone-Sec",
       "desc": "查看QQ空间秘密的脚本",
       "status": "deprecated",
-      "start": "2020-01-15",
+      "start": "2018-06-04",
       "tags": ["python"],
       "link": [
         {
@@ -217,7 +217,7 @@
       "name": "Coupleter",
       "desc": "基于 tensorflow-lite + firebase 的自动对对联 App",
       "status": "deprecated",
-      "start": "2020-01-15",
+      "start": "2018-09-07",
       "tags": ["android"],
       "link": []
     },
@@ -225,7 +225,7 @@
       "name": "I.A.M.S.",
       "desc": "从属NIA-CN的情报收集系统",
       "status": "deprecated",
-      "start": "2020-01-15",
+      "start": "2018",
       "tags": ["python", "nodejs"],
       "link": []
     },
@@ -233,7 +233,7 @@
       "name": "IITCm Prime",
       "desc": "适合Prime版本的IITC",
       "status": "deprecated",
-      "start": "2020-01-15",
+      "start": "2018-10-31",
       "tags": ["android"],
       "link": [
         {
@@ -246,7 +246,7 @@
       "name": "QZone Bot",
       "desc": "QQ空间 自动化消息 Bot",
       "status": "deprecated",
-      "start": "2020-01-15",
+      "start": "2017-09-11",
       "tags": ["python"],
       "link": [
         {
@@ -259,7 +259,7 @@
       "name": "iXuMin",
       "desc": "耗费时间增加姿势水平的 App",
       "status": "deprecated",
-      "start": "2020-01-15",
+      "start": "2017",
       "tags": ["android"],
       "link": []
     },
@@ -267,7 +267,7 @@
       "name": "Mineland",
       "desc": "史诗级的 Minecraft 服务器",
       "status": "deprecated",
-      "start": "2020-01-15",
+      "start": "2012",
       "tags": ["minecraft", "maintenance"],
       "link": []
     }
