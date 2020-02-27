@@ -19,7 +19,7 @@
     },
     {
       "name": "SOSCONF.zh 2020",
-      "desc": "中文学生开源年会 2020 网站",
+      "desc": "中文学生开源年会 2020 网站 及 PWA 程序",
       "status": "wip",
       "start": "2020-01-19",
       "tags": ["official", "nodejs"],
@@ -219,6 +219,22 @@
       "status": "deprecated",
       "start": "2018-09-07",
       "tags": ["android"],
+      "link": []
+    },
+    {
+      "name": "NIACN Services",
+      "desc": "面向NIA-CN内部成员使用的网络加速服务",
+      "status": "deprecated",
+      "start": "2018",
+      "tags": ["javascript","maintenance"],
+      "link": []
+    },
+    {
+      "name": "BioShare",
+      "desc": "在线Ingress Biocard分享平台",
+      "status": "deprecated",
+      "start": "2018-06-20",
+      "tags": ["nodejs"],
       "link": []
     },
     {
