@@ -1,6 +1,27 @@
 {
   "projects": [
     {
+      "name": "MaxField System",
+      "desc": "基于消息队列的 Maxfield 自助计算平台。",
+      "status": "wip",
+      "start": "2020-03-05",
+      "tags": ["python", "nodejs"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://github.com/UESTC-Ingress/maxfield-worker"
+        },
+        {
+          "icon": "git",
+          "url": "https://github.com/UESTC-Ingress/maxfield-api"
+        },
+        {
+          "icon": "git",
+          "url": "https://github.com/UESTC-Ingress/maxfield-frontend"
+        }
+      ]
+    },
+    {
       "name": "UESTC Mirrors Reloaded",
       "desc": "电子科技大学的第二版镜像站。",
       "status": "wip",
