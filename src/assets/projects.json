@@ -1,9 +1,26 @@
 {
   "projects": [
-    {
+  {
+      "name": "NeuroSim GUI",
+      "desc": "NeuroSim 神经网络模拟软件的 Qt 前端。",
+      "status": "finished",
+      "start": "2020-06-01",
+      "tags": ["c", "python"],
+      "link": [
+        {
+	  "icon": "git",
+	  "url": "https://github.com/SteveCharlesYang/NeuroSim"
+	},
+	{
+	  "icon": "git",
+	  "url": "https://github.com/SteveCharlesYang/NeuroSimGUI"
+	}
+      ]
+  },
+  {
       "name": "MaxField System",
       "desc": "基于消息队列的 Maxfield 自助计算平台。",
-      "status": "wip",
+      "status": "abandoned",
       "start": "2020-03-05",
       "tags": ["python", "nodejs"],
       "link": [
@@ -79,7 +96,7 @@
     {
       "name": "毕业设计",
       "desc": "基于 OpenEMR 的共享平台",
-      "status": "wip",
+      "status": "finished",
       "start": "2019-10",
       "tags": ["official", "nodejs"],
       "link": [
@@ -329,6 +346,11 @@
       "name": "NodeJS",
       "icon": "nodejs",
       "color": "success"
+    },
+    "c": {
+      "name": "C++",
+      "icon": "language-cpp",
+      "color": "black"
     },
     "python": {
       "name": "Python",
