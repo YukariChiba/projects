@@ -1,6 +1,19 @@
 {
   "projects": [
   {
+      "name": "IFSolver",
+      "desc": "Ingress FS @ Home 的集成化解谜程序。",
+      "status": "finished",
+      "start": "2020-07-05",
+      "tags": ["python"],
+      "link": [
+        {
+	  "icon": "git",
+	  "url": "https://github.com/UESTC-Ingress/IFSolver"
+	}
+      ]
+  },
+  {
       "name": "NeuroSim GUI",
       "desc": "NeuroSim 神经网络模拟软件的 Qt 前端。",
       "status": "finished",
