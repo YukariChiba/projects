@@ -14,23 +14,6 @@
       ]
   },
   {
-      "name": "NeuroSim GUI",
-      "desc": "NeuroSim 神经网络模拟软件的 Qt 前端。",
-      "status": "finished",
-      "start": "2020-06-01",
-      "tags": ["c", "python"],
-      "link": [
-        {
-	  "icon": "git",
-	  "url": "https://github.com/SteveCharlesYang/NeuroSim"
-	},
-	{
-	  "icon": "git",
-	  "url": "https://github.com/SteveCharlesYang/NeuroSimGUI"
-	}
-      ]
-  },
-  {
       "name": "MaxField System",
       "desc": "基于消息队列的 Maxfield 自助计算平台。",
       "status": "abandoned",
