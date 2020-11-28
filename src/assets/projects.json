@@ -37,7 +37,7 @@
     {
       "name": "UESTC Mirrors Reloaded",
       "desc": "电子科技大学的第二版镜像站。",
-      "status": "wip",
+      "status": "maintaining",
       "start": "2020-01-30",
       "tags": ["official", "nodejs"],
       "link": [
@@ -54,7 +54,7 @@
     {
       "name": "SOSCONF.zh 2020",
       "desc": "中文学生开源年会 2020 网站 及 PWA 程序",
-      "status": "wip",
+      "status": "finished",
       "start": "2020-01-19",
       "tags": ["official", "nodejs"],
       "link": [
