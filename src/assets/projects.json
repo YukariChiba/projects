@@ -1,6 +1,53 @@
 {
   "projects": [
-  {
+    {
+      "name": "CharlesYangBot",
+      "desc": "多功能 Telegram 机器人。",
+      "status": "maintaining",
+      "start": "2021-01-25",
+      "tags": ["python"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://github.com/SteveCharlesYang/tgbot"
+        },
+        {
+          "icon": "telegram",
+          "url": "https://t.me/CharlesYangBot"
+        }
+      ]
+    },
+    {
+      "name": "CNValues Vue",
+      "desc": "CNValues 测试的 Vue 重制版。",
+      "status": "finished",
+      "start": "2020-11-05",
+      "tags": ["nodejs"],
+      "link": [
+        {
+          "icon": "web",
+          "url": "http://cnvalues.0x7f.cc/"
+        },
+        {
+          "icon": "git",
+          "url": "https://github.com/SteveCharlesYang/cnvalues-vue"
+        }
+      ]
+    },
+    {
+      "name": "Internet eXchange 42",
+      "desc": "42 号互联网交换中心（拉斯维加斯）。",
+      "status": "maintaining",
+      "start": "2020-08",
+      "tags": ["maintenance"],
+      "link": [
+        {
+          "icon": "web",
+          "url": "https://ix42.org"
+        }
+      ]
+    },
+    {
       "name": "IFSolver",
       "desc": "Ingress FS @ Home 的集成化解谜程序。",
       "status": "finished",
@@ -8,12 +55,12 @@
       "tags": ["python"],
       "link": [
         {
-	  "icon": "git",
-	  "url": "https://github.com/UESTC-Ingress/IFSolver"
-	}
+          "icon": "git",
+          "url": "https://github.com/UESTC-Ingress/IFSolver"
+        }
       ]
-  },
-  {
+    },
+    {
       "name": "MaxField System",
       "desc": "基于消息队列的 Maxfield 自助计算平台。",
       "status": "abandoned",
@@ -47,7 +94,11 @@
         },
         {
           "icon": "web",
-          "url": "https://nomirror.uestclug.org"
+          "url": "https://mirrors.uestc.cn"
+        },
+        {
+          "icon": "web",
+          "url": "https://垃圾镜像.top"
         }
       ]
     },
@@ -118,7 +169,7 @@
     {
       "name": "银杏服务器今天宕机了吗",
       "desc": "UESTC 内外网服务监测",
-      "status": "finished",
+      "status": "deprecated",
       "start": "2019-10",
       "tags": ["javascript"],
       "link": [
@@ -131,7 +182,7 @@
     {
       "name": "UESTC Mirrors [REDACTED]",
       "desc": "电子科技大学的第一版镜像站。",
-      "status": "finished",
+      "status": "deprecated",
       "start": "2020-01-15",
       "tags": ["official", "javascript"],
       "link": [
@@ -260,7 +311,7 @@
       "desc": "面向NIA-CN内部成员使用的网络加速服务",
       "status": "deprecated",
       "start": "2018",
-      "tags": ["javascript","maintenance"],
+      "tags": ["javascript", "maintenance"],
       "link": []
     },
     {
