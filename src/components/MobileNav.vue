@@ -5,13 +5,13 @@
         0x7f Projects
       </v-card-title>
       <v-card-subtitle>
-        Charles 的项目列表
+        Yukari 的项目列表
       </v-card-subtitle>
       <v-card-actions>
         <v-spacer />
         <v-btn
           icon
-          @click.stop="redirect_url('https://github.com/SteveCharlesYang')"
+          @click.stop="redirect_url('https://github.com/YukariChiba')"
           ><v-icon>mdi-git</v-icon></v-btn
         >
         <v-btn icon @click.stop="redirect_url('https://t.me/CharlesYang')"
@@ -20,7 +20,7 @@
         <v-btn icon @click.stop="redirect_url('https://0x7f.cc')"
           ><v-icon>mdi-web</v-icon></v-btn
         >
-        <v-btn icon @click.stop="redirect_url('mailto:Charles@0x7f.cc')"
+        <v-btn icon @click.stop="redirect_url('mailto:i@0x7f.cc')"
           ><v-icon>mdi-email</v-icon></v-btn
         >
       </v-card-actions>
