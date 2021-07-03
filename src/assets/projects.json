@@ -1,6 +1,36 @@
 {
   "projects": [
     {
+      "name": "DressPay",
+      "desc": "使用可爱的照片结算的支付网关。",
+      "status": "maintaining",
+      "start": "2021-06-29",
+      "tags": ["nodejs"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://github.com/DressPay"
+        },
+        {
+          "icon": "web",
+          "url": "https://dresspay.org"
+        }
+      ]
+    },
+    {
+      "name": "IFSPhoto",
+      "desc": "Ingress FS @ Home 的合照排版工具。",
+      "status": "finished",
+      "start": "2021-05-05",
+      "tags": ["javascript"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://github.com/UESTC-Ingress/IFSPhoto"
+        }
+      ]
+    },
+    {
       "name": "CharlesYangBot",
       "desc": "多功能 Telegram 机器人。",
       "status": "maintaining",
