@@ -1,6 +1,23 @@
 {
   "projects": [
     {
+      "name": "MedicineNotifyBot",
+      "desc": "提醒您按时吃药的 Telegram Bot。",
+      "status": "maintaining",
+      "start": "2021-10-29",
+      "tags": ["nodejs"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://github.com/YukariChiba/MedicineNotifyBot"
+        },
+        {
+          "icon": "telegram",
+          "url": "https://t.me/MedicineNotifyBot"
+        }
+      ]
+    },
+    {
       "name": "DressPay",
       "desc": "使用可爱的照片结算的支付网关。",
       "status": "maintaining",
@@ -87,6 +104,40 @@
         {
           "icon": "git",
           "url": "https://github.com/UESTC-Ingress/IFSolver"
+        }
+      ]
+    },
+    {
+        "name": "NeuroSim GUI",
+        "desc": "NeuroSim 神经网络模拟软件的 Qt 前端。",
+        "status": "finished",
+        "start": "2020-06-01",
+        "tags": ["c", "python"],
+        "link": [
+          {
+            "icon": "git",
+            "url": "https://github.com/SteveCharlesYang/NeuroSim"
+          },
+          {
+            "icon": "git",
+            "url": "https://github.com/SteveCharlesYang/NeuroSimGUI"
+          }
+        ]
+    },
+    {
+      "name": "PKP (OJS) zh_CN Translation",
+      "desc": "公共知识计划（PKP）中开放期刊系统（OJS）及相关模块的简体中文本地化。",
+      "status": "maintaining",
+      "start": "2020-05-11",
+      "tags": ["official"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://github.com/pkp"
+        },
+        {
+          "icon": "web",
+          "url": "https://translate.pkp.sfu.ca/"
         }
       ]
     },
