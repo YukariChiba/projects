@@ -42,7 +42,7 @@
           "url": "https://github.com/YukariChiba/tgbot"
         },
         {
-          "icon": "telegram",
+          "icon": "send",
           "url": "https://t.me/CharlesYangBot"
         }
       ]
@@ -293,7 +293,7 @@
       "tags": ["python"],
       "link": [
         {
-          "icon": "telegram",
+          "icon": "send",
           "url": "https://t.me/GuGuPrintBot"
         },
         {

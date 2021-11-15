@@ -15,7 +15,7 @@
           ><v-icon>mdi-git</v-icon></v-btn
         >
         <v-btn icon @click.stop="redirect_url('https://t.me/CharlesYang')"
-          ><v-icon>mdi-telegram</v-icon></v-btn
+          ><v-icon>mdi-send</v-icon></v-btn
         >
         <v-btn icon @click.stop="redirect_url('https://0x7f.cc')"
           ><v-icon>mdi-web</v-icon></v-btn
