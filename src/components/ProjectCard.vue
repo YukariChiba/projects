@@ -29,17 +29,27 @@
     <v-spacer />
     <v-divider />
     <v-card-actions>
-      <v-btn
-        icon
-        v-for="link in i.link"
-        :key="link.url"
-        @click.stop="redirect_url(link.url)"
-      >
-        <v-icon>mdi-{{ link.icon }}</v-icon>
-      </v-btn>
-      <v-btn disabled icon v-if="i.link.length == 0">
-        <v-icon>mdi-null</v-icon>
-      </v-btn>
+      <v-tooltip bottom v-for="link in i.link" :key="link.url">
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            icon
+            v-on="on"
+            v-bind="attrs"
+            @click.stop="redirect_url(link.url)"
+          >
+            <v-icon>mdi-{{ link.icon }}</v-icon>
+          </v-btn>
+        </template>
+        <span>{{ link.url.replace("https://", "") }}</span>
+      </v-tooltip>
+      <v-tooltip bottom v-if="i.link.length == 0">
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn icon v-on="on" v-bind="attrs">
+            <v-icon>mdi-null</v-icon>
+          </v-btn>
+        </template>
+        <span>未有链接</span>
+      </v-tooltip>
       <v-spacer />
       <span class="text--secondary">{{ i.start }}</span>
     </v-card-actions>

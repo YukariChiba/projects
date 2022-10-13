@@ -44,6 +44,6 @@ export default {
 </script>
 <style lang="scss">
 .navdrawer {
-  background: linear-gradient(#376fff, darken(#3164e4, 5%));
+  background: linear-gradient(#e769e0, darken(#8aabff, 5%));
 }
 </style>

@@ -1,6 +1,57 @@
 {
   "projects": [
     {
+      "name": "TLMC-Tools",
+      "desc": "一些简单用于 TLMC 挂载、解压、分割的脚本。",
+      "status": "finished",
+      "tags": ["bash"],
+      "start": "2022-10-13",
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://github.com/YukariChiba/TLMC-tools"
+        }
+      ]
+    },
+    {
+      "name": "eweOS",
+      "desc": "一个基于 musl, clang, dinit 的、多架构多用途 Linux 发行版。",
+      "status": "maintaining",
+      "start": "2022-08-18",
+      "tags": ["official"],
+      "link": [
+        {
+          "icon": "home",
+          "url": "https://os.ewe.moe"
+        },
+        {
+          "icon": "github",
+          "url": "https://github.com/eweOS"
+        }
+      ]
+    },
+    {
+      "name": "Scan2Graph",
+      "desc": "网络扫描与路由追踪数据采集器，为教研室相关研究提供数据集。",
+      "start": "2022-09",
+      "status": "wip",
+      "tags": ["bash"],
+      "link": []
+    },
+    {
+      "name": "GCAuth-OpenID",
+      "desc": "为 Grasscutter 引入 OpenID 登录支持，并提供示例插件。",
+      "status": "finished",
+      "start": "2022-05-16",
+      "tags": ["java"],
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://github.com/YukariChiba/GCAuth-OpenID"
+        }
+      ]
+    },
+    {
       "name": "Glyphdle",
       "desc": "Ingress Glyph 版的 Wordle。",
       "status": "finished",
@@ -29,7 +80,7 @@
           "url": "https://github.com/YukariChiba/MedicineNotifyBot"
         },
         {
-          "icon": "telegram",
+          "icon": "send",
           "url": "https://t.me/MedicineNotifyBot"
         }
       ]
@@ -65,7 +116,7 @@
       ]
     },
     {
-      "name": "CharlesYangBot",
+      "name": "YukariChibaBot",
       "desc": "多功能 Telegram 机器人。",
       "status": "maintaining",
       "start": "2021-01-25",
@@ -77,7 +128,7 @@
         },
         {
           "icon": "send",
-          "url": "https://t.me/CharlesYangBot"
+          "url": "https://t.me/YukariChibaBot"
         }
       ]
     },
@@ -125,28 +176,28 @@
       ]
     },
     {
-        "name": "NeuroSim GUI",
-        "desc": "NeuroSim 神经网络模拟软件的 Qt 前端。",
-        "status": "finished",
-        "start": "2020-06-01",
-        "tags": ["c", "python"],
-        "link": [
-          {
-            "icon": "git",
-            "url": "https://github.com/SteveCharlesYang/NeuroSim"
-          },
-          {
-            "icon": "git",
-            "url": "https://github.com/SteveCharlesYang/NeuroSimGUI"
-          }
-        ]
+      "name": "NeuroSim GUI",
+      "desc": "NeuroSim 神经网络模拟软件的 Qt 前端。",
+      "status": "finished",
+      "start": "2020-06-01",
+      "tags": ["c", "python"],
+      "link": [
+        {
+          "icon": "git",
+          "url": "https://github.com/YukariChiba/NeuroSim"
+        },
+        {
+          "icon": "git",
+          "url": "https://github.com/YukariChiba/NeuroSimGUI"
+        }
+      ]
     },
     {
       "name": "PKP (OJS) zh_CN Translation",
       "desc": "公共知识计划（PKP）中开放期刊系统（OJS）及相关模块的简体中文本地化。",
       "status": "maintaining",
       "start": "2020-05-11",
-      "tags": ["official"],
+      "tags": ["official", "community"],
       "link": [
         {
           "icon": "git",
@@ -205,7 +256,7 @@
       "desc": "中文学生开源年会 2020 网站 及 PWA 程序",
       "status": "finished",
       "start": "2020-01-19",
-      "tags": ["official", "nodejs"],
+      "tags": ["official", "nodejs", "community"],
       "link": [
         {
           "icon": "git",
@@ -521,6 +572,16 @@
       "name": "Android",
       "icon": "android",
       "color": "success"
+    },
+    "bash": {
+      "name": "bash",
+      "icon": "bash",
+      "color": "grey"
+    },
+    "community": {
+      "name": "社区/合作项目",
+      "icon": "google-circles-communities",
+      "color": "primary"
     }
   },
   "status": {

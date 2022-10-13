@@ -18,7 +18,7 @@
               @click.stop="redirect_url('https://github.com/YukariChiba')"
               ><v-icon>mdi-git</v-icon></v-btn
             >
-            <v-btn icon @click.stop="redirect_url('https://t.me/CharlesYang')"
+            <v-btn icon @click.stop="redirect_url('https://t.me/YukariChiba')"
               ><v-icon>mdi-send</v-icon></v-btn
             >
             <v-btn icon @click.stop="redirect_url('https://0x7f.cc')"
