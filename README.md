@@ -1,24 +1,3 @@
-# 0x7fprojects
+# 0x7f Projects
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Yukari 的项目列表，所有配置皆在 `src/assets/projects.json`。

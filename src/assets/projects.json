@@ -1,6 +1,36 @@
 {
   "projects": [
     {
+      "name": "IPTV @ UESTC",
+      "desc": "电子科技大学 IPTV 站。",
+      "status": "finished",
+      "tags": ["official"],
+      "start": "2023-04-09",
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://github.com/uestclug/iptv-frontend"
+        },
+        {
+          "icon": "web",
+          "url": "https://iptv.uestc.edu.cn"
+        }
+      ]
+    },
+    {
+      "name": "wg-gen-web-nuvpn",
+      "desc": "修改后的 wg-gen-web 前端，纯静态部署，支持多个站点。",
+      "status": "finished",
+      "tags": ["javascript"],
+      "start": "2023-01-01",
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://github.com/YukariChiba/wg-gen-web/tree/nuvpn"
+        }
+      ]
+    },
+    {
       "name": "TLMC-Tools",
       "desc": "一些简单用于 TLMC 挂载、解压、分割的脚本。",
       "status": "finished",
@@ -34,7 +64,7 @@
       "name": "Scan2Graph",
       "desc": "网络扫描与路由追踪数据采集器，为教研室相关研究提供数据集。",
       "start": "2022-09",
-      "status": "wip",
+      "status": "finished",
       "tags": ["bash"],
       "link": []
     },
