@@ -1,6 +1,27 @@
 {
   "projects": [
     {
+      "name": "VueCG",
+      "desc": "使用 Vue.js 和 Vuetify 在浏览器输入源中提供直播 CG 的平台。",
+      "status": "wip",
+      "tags": ["javascript", "nodejs"],
+      "start": "2023-04-24",
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://github.com/YukariChiba/VueCG-Control"
+        },
+        {
+          "icon": "github",
+          "url": "https://github.com/YukariChiba/VueCG-Service"
+        },
+        {
+          "icon": "github",
+          "url": "https://github.com/YukariChiba/VueCG-Display"
+        }
+      ]
+    },
+    {
       "name": "IPTV @ UESTC",
       "desc": "电子科技大学 IPTV 站。",
       "status": "finished",
