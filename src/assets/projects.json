@@ -1,6 +1,32 @@
 {
   "projects": [
     {
+      "name": "Wireguard MPLS",
+      "desc": "使 Wireguard 兼容 MPLS，支持多层标签，不浪费 MTU。",
+      "status": "maintaining",
+      "tags": ["c"],
+      "start": "2024-04-02",
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://github.com/YukariChiba/wireguard-mpls"
+        }
+      ]
+    },
+    {
+      "name": "deepin-ports-image",
+      "desc": "为嵌入式设备打包 deepin 镜像。",
+      "status": "maintaining",
+      "tags": ["bash", "official", "community"],
+      "start": "2023-08",
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://github.com/YukariChiba/deepin-ports-image"
+        }
+      ]
+    },
+    {
       "name": "VueCG",
       "desc": "使用 Vue.js 和 Vuetify 在浏览器输入源中提供直播 CG 的平台。",
       "status": "wip",
@@ -231,7 +257,7 @@
       "desc": "NeuroSim 神经网络模拟软件的 Qt 前端。",
       "status": "finished",
       "start": "2020-06-01",
-      "tags": ["c", "python"],
+      "tags": ["cpp", "python"],
       "link": [
         {
           "icon": "git",
@@ -594,9 +620,14 @@
       "icon": "nodejs",
       "color": "success"
     },
-    "c": {
+    "cpp": {
       "name": "C++",
       "icon": "language-cpp",
+      "color": "black"
+    },
+    "c": {
+      "name": "C",
+      "icon": "language-c",
       "color": "black"
     },
     "python": {
