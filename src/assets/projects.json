@@ -4,7 +4,8 @@
       "name": "hass_companieshouse",
       "desc": "Home Assistant 获取英国公司信息的插件。",
       "status": "maintaining",
-      "tags": ["python"],
+      "lang": ["python"],
+      "topic": ["hass"],
       "start": "2026-02",
       "link": [
         {
@@ -17,7 +18,8 @@
       "name": "peering-form",
       "desc": "BGP Peering 申请表。",
       "status": "maintaining",
-      "tags": [],
+      "lang": ["typst"],
+      "topic": ["network"],
       "start": "2025-11",
       "link": [
         {
@@ -30,41 +32,38 @@
       "name": "agentvalues",
       "desc": "基于当下 Ingress 玩家群体状况设计的娱乐性立场测试。",
       "status": "finished",
-      "tags": ["javascript"],
+      "lang": ["javascript", "typescript", "vue"],
+      "topic": ["ingress", "web"],
       "start": "2025-12",
       "link": [
         {
           "icon": "github",
           "url": "https://github.com/YukariChiba/agentvalues"
         },
-        {
-          "icon": "web",
-          "url": "https://agentvalues.0x7f.cc"
-        }
+        { "icon": "web", "url": "https://agentvalues.0x7f.cc" }
       ]
     },
     {
       "name": "flapcollector",
       "desc": "DN42 Flapalerted 信息收集器。",
       "status": "maintaining",
-      "tags": ["javascript", "python"],
+      "lang": ["typescript", "vue", "python"],
+      "topic": ["network"],
       "start": "2025-12",
       "link": [
         {
           "icon": "github",
           "url": "https://github.com/YukariChiba/flapcollector"
         },
-        {
-          "icon": "web",
-          "url": "https://flap42-data.strexp.net/"
-        }
+        { "icon": "web", "url": "https://flap42-data.strexp.net/" }
       ]
     },
     {
       "name": "export.sh",
       "desc": "netease-cloud-music-gtk4 音乐导出。",
       "status": "maintaining",
-      "tags": ["bash"],
+      "lang": ["bash"],
+      "topic": ["tool"],
       "start": "2025-10",
       "link": [
         {
@@ -74,57 +73,94 @@
       ]
     },
     {
+      "name": "DN42RegBot",
+      "desc": "Telegram 上播报 DN42 registry 变动的机器人。",
+      "status": "maintaining",
+      "lang": ["python"],
+      "topic": ["network", "telegram"],
+      "start": "2025-12",
+      "link": [
+        { "icon": "github", "url": "https://github.com/strexp/DN42RegBot" },
+        { "icon": "send", "url": "https://t.me/DN42new" }
+      ]
+    },
+    {
+      "name": "phone42",
+      "desc": "支持 PWA 的 WebRTC 电话。",
+      "status": "maintaining",
+      "lang": ["typescript", "vue"],
+      "topic": ["network"],
+      "start": "2025-12",
+      "link": [{ "icon": "github", "url": "https://github.com/strexp/phone42" }]
+    },
+    {
+      "name": "map42",
+      "desc": "华丽的 DN42 3D 地图。",
+      "status": "maintaining",
+      "lang": ["typescript", "vue"],
+      "topic": ["network"],
+      "start": "2025-12",
+      "link": [{ "icon": "github", "url": "https://github.com/strexp/map42" }]
+    },
+    {
+      "name": "isp42",
+      "desc": "DN42 ISP 信息查询。",
+      "status": "maintaining",
+      "lang": ["typescript", "vue"],
+      "topic": ["network"],
+      "start": "2025-12",
+      "link": [{ "icon": "github", "url": "https://github.com/strexp/isp42" }]
+    },
+    {
+      "name": "lg42",
+      "desc": "DN42 Lookging Glass。",
+      "status": "maintaining",
+      "lang": ["typescript", "vue"],
+      "topic": ["network"],
+      "start": "2025-12",
+      "link": [{ "icon": "github", "url": "https://github.com/strexp/lg42" }]
+    },
+    {
       "name": "postcards",
       "desc": "自己设计的明信片合集。",
       "status": "maintaining",
-      "tags": ["design"],
+      "lang": ["design"],
+      "topic": ["life"],
       "start": "2025-07",
       "link": [
-        {
-          "icon": "github",
-          "url": "https://github.com/YukariChiba/postcards"
-        },
-        {
-          "icon": "web",
-          "url": "https://postcards.0x7f.cc"
-        }
+        { "icon": "github", "url": "https://github.com/YukariChiba/postcards" },
+        { "icon": "web", "url": "https://postcards.0x7f.cc" }
       ]
     },
     {
       "name": "dnsdraw",
       "desc": "使用 rDNS 在 traceroute 下念诗。",
       "status": "maintaining",
-      "tags": ["python"],
+      "lang": ["python", "html"],
+      "topic": ["network"],
       "start": "2025-03",
       "link": [
-        {
-          "icon": "github",
-          "url": "https://github.com/YukariChiba/dnsdraw"
-        },
-        {
-          "icon": "web",
-          "url": "https://draw-list.strexp.net"
-        }
+        { "icon": "github", "url": "https://github.com/YukariChiba/dnsdraw" },
+        { "icon": "web", "url": "https://draw-list.strexp.net" }
       ]
     },
     {
       "name": "judge",
       "desc": "裁判文书网归档及查询。",
       "status": "abandoned",
-      "tags": ["nodejs", "javascript"],
+      "lang": ["nodejs", "javascript"],
+      "topic": ["tool"],
       "start": "2024.12",
       "link": [
-        {
-          "icon": "github",
-          "url": "https://github.com/YukariChiba/judge"
-        }
+        { "icon": "github", "url": "https://github.com/YukariChiba/judge" }
       ]
     },
     {
       "name": "Wireguard MPLS",
       "desc": "使 Wireguard 兼容 MPLS，支持多层标签，不浪费 MTU。",
-      "status": "not-maintaining",
-      "tags": ["c"],
+      "status": "lack-maintaining",
+      "lang": ["c"],
+      "topic": ["network"],
       "start": "2024-04-02",
       "link": [
         {
@@ -137,7 +173,8 @@
       "name": "deepin-ports-image",
       "desc": "为嵌入式设备打包 deepin 镜像。",
       "status": "maintaining",
-      "tags": ["bash", "official", "community"],
+      "lang": ["bash"],
+      "topic": ["linux"],
       "start": "2023-08",
       "link": [
         {
@@ -147,10 +184,25 @@
       ]
     },
     {
+      "name": "deepin-ports-kernel",
+      "desc": "打包适用于 deepin 的第三方或厂商内核。",
+      "status": "maintaining",
+      "lang": ["bash"],
+      "topic": ["linux"],
+      "start": "2023-08",
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://github.com/deepin-community/deepin-ports-kernel"
+        }
+      ]
+    },
+    {
       "name": "VueCG",
       "desc": "使用 Vue.js 和 Vuetify 在浏览器输入源中提供直播 CG 的平台。",
       "status": "abandoned",
-      "tags": ["javascript", "nodejs"],
+      "lang": ["javascript", "nodejs"],
+      "topic": ["tool", "web"],
       "start": "2023-04-24",
       "link": [
         {
@@ -160,10 +212,6 @@
         {
           "icon": "github",
           "url": "https://github.com/YukariChiba/VueCG-Service"
-        },
-        {
-          "icon": "github",
-          "url": "https://github.com/YukariChiba/VueCG-Display"
         }
       ]
     },
@@ -171,24 +219,23 @@
       "name": "IPTV @ UESTC",
       "desc": "电子科技大学 IPTV 站。",
       "status": "deprecated",
-      "tags": ["official"],
+      "lang": [],
+      "topic": ["campus"],
       "start": "2023-04-09",
       "link": [
         {
           "icon": "github",
           "url": "https://github.com/uestclug/iptv-frontend"
         },
-        {
-          "icon": "web",
-          "url": "https://iptv.uestc.edu.cn"
-        }
+        { "icon": "web", "url": "https://iptv.uestc.edu.cn" }
       ]
     },
     {
       "name": "wg-gen-web-nuvpn",
       "desc": "修改后的 wg-gen-web 前端，纯静态部署，支持多个站点。",
-      "status": "deprecated",
-      "tags": ["javascript"],
+      "status": "not-maintaining",
+      "lang": ["javascript"],
+      "topic": ["network"],
       "start": "2023-01-01",
       "link": [
         {
@@ -200,14 +247,12 @@
     {
       "name": "TLMC-Tools",
       "desc": "一些简单用于 TLMC 挂载、解压、分割的脚本。",
-      "status": "finished",
-      "tags": ["bash"],
+      "status": "not-maintaining",
+      "lang": ["bash"],
+      "topic": ["tool"],
       "start": "2022-10-13",
       "link": [
-        {
-          "icon": "github",
-          "url": "https://github.com/YukariChiba/TLMC-tools"
-        }
+        { "icon": "github", "url": "https://github.com/YukariChiba/TLMC-tools" }
       ]
     },
     {
@@ -215,32 +260,29 @@
       "desc": "一个基于 musl, clang, dinit 的、多架构多用途 Linux 发行版。",
       "status": "maintaining",
       "start": "2022-08-18",
-      "tags": ["official"],
+      "lang": [],
+      "topic": ["linux"],
       "link": [
-        {
-          "icon": "home",
-          "url": "https://os.ewe.moe"
-        },
-        {
-          "icon": "github",
-          "url": "https://github.com/eweOS"
-        }
+        { "icon": "home", "url": "https://os.ewe.moe" },
+        { "icon": "github", "url": "https://github.com/eweOS" }
       ]
     },
     {
       "name": "Scan2Graph",
       "desc": "网络扫描与路由追踪数据采集器，为教研室相关研究提供数据集。",
       "start": "2022-09",
-      "status": "finished",
-      "tags": ["bash"],
+      "status": "deprecated",
+      "lang": ["bash"],
+      "topic": ["network"],
       "link": []
     },
     {
       "name": "GCAuth-OpenID",
       "desc": "为 Grasscutter 引入 OpenID 登录支持，并提供示例插件。",
-      "status": "deprecated",
+      "status": "not-maintaining",
       "start": "2022-05-16",
-      "tags": ["java"],
+      "lang": ["java"],
+      "topic": ["game"],
       "link": [
         {
           "icon": "github",
@@ -251,35 +293,28 @@
     {
       "name": "Glyphdle",
       "desc": "Ingress Glyph 版的 Wordle。",
-      "status": "not-maintaining",
+      "status": "lack-maintaining",
       "start": "2022-02-12",
-      "tags": ["javascript"],
+      "lang": ["javascript", "vue"],
+      "topic": ["ingress", "game"],
       "link": [
-        {
-          "icon": "web",
-          "url": "https://glyphdle.0x7f.cc/"
-        },
-        {
-          "icon": "git",
-          "url": "https://github.com/YukariChiba/glyphdle"
-        }
+        { "icon": "web", "url": "https://glyphdle.0x7f.cc/" },
+        { "icon": "git", "url": "https://github.com/YukariChiba/glyphdle" }
       ]
     },
     {
       "name": "MedicineNotifyBot",
       "desc": "提醒您按时吃药的 Telegram Bot。",
-      "status": "not-maintaining",
+      "status": "lack-maintaining",
       "start": "2021-10-29",
-      "tags": ["nodejs"],
+      "lang": ["python"],
+      "topic": ["telegram"],
       "link": [
         {
           "icon": "git",
           "url": "https://github.com/YukariChiba/MedicineNotifyBot"
         },
-        {
-          "icon": "send",
-          "url": "https://t.me/MedicineNotifyBot"
-        }
+        { "icon": "send", "url": "https://t.me/MedicineNotifyBot" }
       ]
     },
     {
@@ -287,16 +322,11 @@
       "desc": "使用可爱的照片结算的支付网关。",
       "status": "abandoned",
       "start": "2021-06-29",
-      "tags": ["nodejs"],
+      "lang": ["nodejs"],
+      "topic": ["tool"],
       "link": [
-        {
-          "icon": "git",
-          "url": "https://github.com/DressPay"
-        },
-        {
-          "icon": "web",
-          "url": "https://dresspay.org"
-        }
+        { "icon": "git", "url": "https://github.com/DressPay" },
+        { "icon": "web", "url": "https://dresspay.org" }
       ]
     },
     {
@@ -304,12 +334,10 @@
       "desc": "Ingress FS @ Home 的合照排版工具。",
       "status": "not-maintaining",
       "start": "2021-05-05",
-      "tags": ["javascript"],
+      "lang": ["javascript"],
+      "topic": ["ingress"],
       "link": [
-        {
-          "icon": "git",
-          "url": "https://github.com/UESTC-Ingress/IFSPhoto"
-        }
+        { "icon": "git", "url": "https://github.com/UESTC-Ingress/IFSPhoto" }
       ]
     },
     {
@@ -317,76 +345,55 @@
       "desc": "多功能 Telegram 机器人。",
       "status": "maintaining",
       "start": "2021-01-25",
-      "tags": ["python"],
+      "lang": ["python"],
+      "topic": ["telegram"],
       "link": [
-        {
-          "icon": "git",
-          "url": "https://github.com/YukariChiba/tgbot"
-        },
-        {
-          "icon": "send",
-          "url": "https://t.me/YukariChibaBot"
-        }
+        { "icon": "git", "url": "https://github.com/YukariChiba/tgbot" },
+        { "icon": "send", "url": "https://t.me/YukariChibaBot" }
       ]
     },
     {
       "name": "CNValues Vue",
       "desc": "CNValues 测试的 Vue 重制版。",
-      "status": "not-maintaining",
+      "status": "lack-maintaining",
       "start": "2020-11-05",
-      "tags": ["nodejs"],
+      "lang": ["javascript", "vue"],
+      "topic": ["web"],
       "link": [
-        {
-          "icon": "web",
-          "url": "http://cnvalues.0x7f.cc/"
-        },
-        {
-          "icon": "git",
-          "url": "https://github.com/YukariChiba/cnvalues-vue"
-        }
+        { "icon": "web", "url": "http://cnvalues.0x7f.cc/" },
+        { "icon": "git", "url": "https://github.com/YukariChiba/cnvalues-vue" }
       ]
     },
     {
       "name": "Internet eXchange 42",
       "desc": "42 号互联网交换中心（拉斯维加斯）。",
-      "status": "deprecated",
+      "status": "not-maintaining",
       "start": "2020-08",
-      "tags": ["maintenance"],
-      "link": [
-        {
-          "icon": "web",
-          "url": "https://ix42.org"
-        }
-      ]
+      "lang": [],
+      "topic": ["network"],
+      "link": [{ "icon": "web", "url": "https://ix42.org" }]
     },
     {
       "name": "IFSolver",
       "desc": "Ingress FS @ Home 的集成化解谜程序。",
-      "status": "not-maintaining",
+      "status": "deprecated",
       "start": "2020-07-05",
-      "tags": ["python"],
+      "lang": ["python"],
+      "topic": ["ingress"],
       "link": [
-        {
-          "icon": "git",
-          "url": "https://github.com/UESTC-Ingress/IFSolver"
-        }
+        { "icon": "git", "url": "https://github.com/UESTC-Ingress/IFSolver" }
       ]
     },
     {
       "name": "NeuroSim GUI",
       "desc": "NeuroSim 神经网络模拟软件的 Qt 前端。",
-      "status": "finished",
+      "status": "not-maintaining",
       "start": "2020-06-01",
-      "tags": ["cpp", "python"],
+      "lang": ["cpp", "python"],
+      "topic": ["tool"],
       "link": [
-        {
-          "icon": "git",
-          "url": "https://github.com/YukariChiba/NeuroSim"
-        },
-        {
-          "icon": "git",
-          "url": "https://github.com/YukariChiba/NeuroSimGUI"
-        }
+        { "icon": "git", "url": "https://github.com/YukariChiba/NeuroSim" },
+        { "icon": "git", "url": "https://github.com/YukariChiba/NeuroSimGUI" }
       ]
     },
     {
@@ -394,16 +401,11 @@
       "desc": "公共知识计划（PKP）中开放期刊系统（OJS）及相关模块的简体中文本地化。",
       "status": "not-maintaining",
       "start": "2020-05-11",
-      "tags": ["official", "community"],
+      "lang": [],
+      "topic": ["translation"],
       "link": [
-        {
-          "icon": "git",
-          "url": "https://github.com/pkp"
-        },
-        {
-          "icon": "web",
-          "url": "https://translate.pkp.sfu.ca/"
-        }
+        { "icon": "git", "url": "https://github.com/pkp" },
+        { "icon": "web", "url": "https://translate.pkp.sfu.ca/" }
       ]
     },
     {
@@ -411,7 +413,8 @@
       "desc": "基于消息队列的 Maxfield 自助计算平台。",
       "status": "abandoned",
       "start": "2020-03-05",
-      "tags": ["python", "nodejs"],
+      "lang": ["python", "nodejs"],
+      "topic": ["ingress"],
       "link": [
         {
           "icon": "git",
@@ -432,37 +435,29 @@
       "desc": "电子科技大学的第二版镜像站。",
       "status": "deprecated",
       "start": "2020-01-30",
-      "tags": ["official", "nodejs"],
+      "lang": ["nodejs"],
+      "topic": ["campus"],
       "link": [
         {
           "icon": "git",
           "url": "https://gitlab.com/uestclug/uestc-mirrors-preview"
         },
-        {
-          "icon": "web",
-          "url": "https://mirrors.uestc.cn"
-        },
-        {
-          "icon": "web",
-          "url": "https://垃圾镜像.top"
-        }
+        { "icon": "web", "url": "https://mirrors.uestc.cn" }
       ]
     },
     {
       "name": "SOSCONF.zh 2020",
       "desc": "中文学生开源年会 2020 网站 及 PWA 程序",
-      "status": "finished",
+      "status": "not-maintaining",
       "start": "2020-01-19",
-      "tags": ["official", "nodejs", "community"],
+      "lang": ["nodejs"],
+      "topic": ["web"],
       "link": [
         {
           "icon": "git",
           "url": "https://gitlab.com/sosconf_zh/sosconf_zh.gitlab.io"
         },
-        {
-          "icon": "web",
-          "url": "https://2020.zh.sosconf.org"
-        }
+        { "icon": "web", "url": "https://2020.zh.sosconf.org" }
       ]
     },
     {
@@ -470,7 +465,8 @@
       "desc": "Telegram@threesome_bot 的 MC 重制版本",
       "status": "abandoned",
       "start": "2020-02-18",
-      "tags": ["NSFW", "java"],
+      "lang": ["java"],
+      "topic": ["minecraft"],
       "link": []
     },
     {
@@ -478,25 +474,19 @@
       "desc": "Minecraft Mod 包管理器",
       "status": "abandoned",
       "start": "2020-01-15",
-      "tags": ["minecraft", "python"],
-      "link": [
-        {
-          "icon": "git",
-          "url": "https://github.com/YukariChiba/emmm"
-        }
-      ]
+      "lang": ["python"],
+      "topic": ["minecraft"],
+      "link": [{ "icon": "git", "url": "https://github.com/YukariChiba/emmm" }]
     },
     {
       "name": "毕业设计",
       "desc": "基于 OpenEMR 的共享平台",
-      "status": "finished",
+      "status": "not-maintaining",
       "start": "2019-10",
-      "tags": ["official", "nodejs"],
+      "lang": ["nodejs"],
+      "topic": ["web"],
       "link": [
-        {
-          "icon": "git",
-          "url": "https://github.com/YukariChiba/fyp-dockers"
-        }
+        { "icon": "git", "url": "https://github.com/YukariChiba/fyp-dockers" }
       ]
     },
     {
@@ -504,46 +494,32 @@
       "desc": "UESTC LUG 支持建立的 MC 服务器",
       "status": "deprecated",
       "start": "2019-10",
-      "tags": ["minecraft", "maintenance"],
-      "link": [
-        {
-          "icon": "web",
-          "url": "https://mc.uestc.app"
-        }
-      ]
+      "lang": [],
+      "topic": ["minecraft"],
+      "link": [{ "icon": "web", "url": "https://mc.uestc.app" }]
     },
     {
       "name": "银杏服务器今天宕机了吗",
       "desc": "UESTC 内外网服务监测",
       "status": "deprecated",
       "start": "2019-10",
-      "tags": ["javascript"],
-      "link": [
-        {
-          "icon": "web",
-          "url": "https://up.uestc.app"
-        }
-      ]
+      "lang": ["javascript"],
+      "topic": ["campus"],
+      "link": [{ "icon": "web", "url": "https://up.uestc.app" }]
     },
     {
       "name": "UESTC Mirrors [REDACTED]",
       "desc": "电子科技大学的第一版镜像站。",
       "status": "deprecated",
       "start": "2020-01-15",
-      "tags": ["official", "javascript"],
+      "lang": ["javascript"],
+      "topic": ["campus"],
       "link": [
         {
           "icon": "git",
           "url": "https://github.com/uestclug/mirrors-autoindex"
         },
-        {
-          "icon": "web",
-          "url": "https://mirrors.uestc.cn"
-        },
-        {
-          "icon": "web",
-          "url": "https://iptv.uestc.edu.cn"
-        }
+        { "icon": "web", "url": "https://mirrors.uestc.cn" }
       ]
     },
     {
@@ -551,46 +527,32 @@
       "desc": "社团名义运作的虚拟网络",
       "status": "deprecated",
       "start": "2019",
-      "tags": ["maintenance"],
-      "link": [
-        {
-          "icon": "web",
-          "url": "https://net.nia.ac.cn"
-        }
-      ]
+      "lang": [],
+      "topic": ["network"],
+      "link": [{ "icon": "web", "url": "https://net.nia.ac.cn" }]
     },
     {
       "name": "NetUni0nTerm",
       "desc": "网管会招新题其二-终端",
-      "status": "finished",
+      "status": "not-maintaining",
       "start": "2019-10-13",
-      "tags": ["javascript"],
+      "lang": ["javascript"],
+      "topic": ["campus"],
       "link": [
-        {
-          "icon": "web",
-          "url": "https://netunionterm.herokuapp.com"
-        },
-        {
-          "icon": "git",
-          "url": "https://github.com/YukariChiba/NetUnionTerm"
-        }
+        { "icon": "web", "url": "https://netunionterm.herokuapp.com" },
+        { "icon": "git", "url": "https://github.com/YukariChiba/NetUnionTerm" }
       ]
     },
     {
       "name": "NetUni0nRecruit",
       "desc": "网管会招新题其一-招新报名",
-      "status": "finished",
+      "status": "not-maintaining",
       "start": "2019-10-12",
-      "tags": ["javascript"],
+      "lang": ["javascript"],
+      "topic": ["campus"],
       "link": [
-        {
-          "icon": "web",
-          "url": "https://netunionrecruit.herokuapp.com"
-        },
-        {
-          "icon": "git",
-          "url": "https://github.com/YukariChiba/NetUnionTerm"
-        }
+        { "icon": "web", "url": "https://netunionrecruit.herokuapp.com" },
+        { "icon": "git", "url": "https://github.com/YukariChiba/NetUnionTerm" }
       ]
     },
     {
@@ -598,7 +560,8 @@
       "desc": "Ingress 同人文字游戏",
       "status": "abandoned",
       "start": "2019-10",
-      "tags": ["python"],
+      "lang": ["python"],
+      "topic": ["ingress"],
       "link": []
     },
     {
@@ -606,16 +569,11 @@
       "desc": "咕咕机 Telegram 打印机器人",
       "status": "maintaining",
       "start": "2017-09-13",
-      "tags": ["python"],
+      "lang": ["typescript"],
+      "topic": ["telegram"],
       "link": [
-        {
-          "icon": "send",
-          "url": "https://t.me/GuGuPrintBot"
-        },
-        {
-          "icon": "git",
-          "url": "https://github.com/YukariChiba/GuGuPrint"
-        }
+        { "icon": "send", "url": "https://t.me/GuGuPrintBot" },
+        { "icon": "git", "url": "https://github.com/YukariChiba/GuGuPrint" }
       ]
     },
     {
@@ -623,25 +581,19 @@
       "desc": "将网页全部相关字替换成”嘤“的脚本",
       "status": "abandoned",
       "start": "2019-05-24",
-      "tags": ["javascript"],
-      "link": [
-        {
-          "icon": "git",
-          "url": "https://github.com/YukariChiba/ying"
-        }
-      ]
+      "lang": ["javascript"],
+      "topic": ["tool"],
+      "link": [{ "icon": "git", "url": "https://github.com/YukariChiba/ying" }]
     },
     {
       "name": "QZone-Sec",
       "desc": "查看QQ空间秘密的脚本",
       "status": "deprecated",
       "start": "2018-06-04",
-      "tags": ["python"],
+      "lang": ["python"],
+      "topic": ["tool"],
       "link": [
-        {
-          "icon": "git",
-          "url": "https://github.com/YukariChiba/QZone-Sec"
-        }
+        { "icon": "git", "url": "https://github.com/YukariChiba/QZone-Sec" }
       ]
     },
     {
@@ -649,23 +601,26 @@
       "desc": "基于 tensorflow-lite + firebase 的自动对对联 App",
       "status": "deprecated",
       "start": "2018-09-07",
-      "tags": ["android"],
+      "lang": ["kotlin"],
+      "topic": ["android"],
       "link": []
     },
     {
       "name": "NIACN Services",
       "desc": "面向NIA-CN内部成员使用的网络加速服务",
-      "status": "deprecated",
+      "status": "not-maintaining",
       "start": "2018",
-      "tags": ["javascript", "maintenance"],
+      "lang": [],
+      "topic": ["ingress"],
       "link": []
     },
     {
       "name": "BioShare",
       "desc": "在线Ingress Biocard分享平台",
-      "status": "deprecated",
+      "status": "not-maintaining",
       "start": "2018-06-20",
-      "tags": ["nodejs"],
+      "lang": ["nodejs"],
+      "topic": ["ingress"],
       "link": []
     },
     {
@@ -673,7 +628,8 @@
       "desc": "从属NIA-CN的情报收集系统",
       "status": "deprecated",
       "start": "2018",
-      "tags": ["python", "nodejs"],
+      "lang": ["python", "nodejs"],
+      "topic": ["ingress"],
       "link": []
     },
     {
@@ -681,25 +637,19 @@
       "desc": "适合Prime版本的IITC",
       "status": "deprecated",
       "start": "2018-10-31",
-      "tags": ["android"],
-      "link": [
-        {
-          "icon": "git",
-          "url": "https://github.com/YukariChiba/IITCm"
-        }
-      ]
+      "lang": ["java", "javascript"],
+      "topic": ["ingress", "android"],
+      "link": [{ "icon": "git", "url": "https://github.com/YukariChiba/IITCm" }]
     },
     {
       "name": "QZone Bot",
       "desc": "QQ空间 自动化消息 Bot",
       "status": "deprecated",
       "start": "2017-09-11",
-      "tags": ["python"],
+      "lang": ["python"],
+      "topic": ["tool"],
       "link": [
-        {
-          "icon": "git",
-          "url": "https://github.com/YukariChiba/QZone-Bot"
-        }
+        { "icon": "git", "url": "https://github.com/YukariChiba/QZone-Bot" }
       ]
     },
     {
@@ -707,7 +657,8 @@
       "desc": "耗费时间增加姿势水平的 App",
       "status": "deprecated",
       "start": "2017",
-      "tags": ["android"],
+      "lang": ["kotlin"],
+      "topic": ["android"],
       "link": []
     },
     {
@@ -715,106 +666,71 @@
       "desc": "史诗级的 Minecraft 服务器",
       "status": "deprecated",
       "start": "2012",
-      "tags": ["minecraft", "maintenance"],
+      "lang": ["java"],
+      "topic": ["minecraft"],
       "link": []
     }
   ],
-  "tags": {
-    "official": {
-      "name": "正规项目",
-      "icon": "briefcase",
-      "color": "primary"
-    },
-    "design": {
-      "name": "设计",
-      "icon": "pencil-ruler",
-      "color": "primary"
-    },
-    "NSFW": {
-      "name": "NSFW",
-      "icon": "close-octagon",
-      "color": "error"
-    },
+  "meta": {
+    "design": { "name": "Design", "icon": "pencil-ruler", "color": "primary" },
     "minecraft": {
-      "name": "MC",
+      "name": "Minecraft",
       "icon": "minecraft",
       "color": "success"
     },
-    "nodejs": {
-      "name": "NodeJS",
-      "icon": "nodejs",
-      "color": "success"
-    },
-    "cpp": {
-      "name": "C++",
-      "icon": "language-cpp",
-      "color": "black"
-    },
-    "c": {
-      "name": "C",
-      "icon": "language-c",
-      "color": "black"
-    },
+    "nodejs": { "name": "NodeJS", "icon": "nodejs", "color": "success" },
+    "cpp": { "name": "C++", "icon": "language-cpp", "color": "black" },
+    "c": { "name": "C", "icon": "language-c", "color": "black" },
     "python": {
       "name": "Python",
       "icon": "language-python",
       "color": "primary"
     },
-    "java": {
-      "name": "Java",
-      "icon": "language-java",
-      "color": "warning"
-    },
+    "java": { "name": "Java", "icon": "language-java", "color": "warning" },
     "javascript": {
       "name": "JavaScript",
       "icon": "language-javascript",
       "color": "warning"
     },
-    "maintenance": {
-      "name": "运维",
-      "icon": "server",
-      "color": "primary"
+    "typescript": {
+      "name": "TypeScript",
+      "icon": "language-typescript",
+      "color": "blue"
     },
-    "android": {
-      "name": "Android",
-      "icon": "android",
-      "color": "success"
+    "android": { "name": "Android", "icon": "android", "color": "success" },
+    "bash": { "name": "Shell", "icon": "bash", "color": "grey" },
+    "web": { "name": "Web", "icon": "web", "color": "pink" },
+    "network": {
+      "name": "Network",
+      "icon": "ip-network",
+      "color": "deep-purple"
     },
-    "bash": {
-      "name": "bash",
-      "icon": "bash",
-      "color": "grey"
+    "ingress": { "name": "Ingress", "icon": "navigation", "color": "blue" },
+    "telegram": { "name": "Telegram", "icon": "send", "color": "light-blue" },
+    "linux": { "name": "Linux", "icon": "linux", "color": "white" },
+    "tool": { "name": "Tools", "icon": "tools", "color": "orange" },
+    "hass": {
+      "name": "HomeAssistant",
+      "icon": "home-automation",
+      "color": "cyan"
     },
-    "community": {
-      "name": "社区/合作项目",
-      "icon": "google-circles-communities",
-      "color": "primary"
+    "life": { "name": "Life", "icon": "coffee", "color": "brown" },
+    "campus": { "name": "Campus", "icon": "school", "color": "indigo" },
+    "game": { "name": "Game", "icon": "controller", "color": "purple" },
+    "translation": { "name": "i18n", "icon": "translate", "color": "teal" },
+    "vue": {
+      "name": "Vue",
+      "icon": "vuejs",
+      "color": "green"
     }
   },
   "status": {
-    "finished": {
-      "name": "完成",
-      "color": "success"
-    },
-    "abandoned": {
-      "name": "咕咕咕",
-      "color": "error"
-    },
-    "wip": {
-      "name": "正在施工",
-      "color": "primary"
-    },
-    "deprecated": {
-      "name": "已无效",
-      "color": "default"
-    },
-    "maintaining": {
-      "name": "维护中",
-      "color": "success"
-    },
-    "not-maintaining": {
-      "name": "未在维护",
-      "color": "warning"
-    }
+    "finished": { "name": "完成", "color": "success" },
+    "abandoned": { "name": "咕咕咕", "color": "error" },
+    "wip": { "name": "正在施工", "color": "primary" },
+    "deprecated": { "name": "已无效", "color": "grey" },
+    "maintaining": { "name": "维护中", "color": "success" },
+    "not-maintaining": { "name": "不再维护", "color": "error" },
+    "lack-maintaining": { "name": "缺乏维护", "color": "warning" }
   }
 }
