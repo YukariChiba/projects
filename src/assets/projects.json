@@ -1,6 +1,79 @@
 {
   "projects": [
     {
+      "name": "hass_companieshouse",
+      "desc": "Home Assistant 获取英国公司信息的插件。",
+      "status": "maintaining",
+      "tags": ["python"],
+      "start": "2026-02",
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://github.com/YukariChiba/hass_companieshouse"
+        }
+      ]
+    },
+    {
+      "name": "peering-form",
+      "desc": "BGP Peering 申请表。",
+      "status": "maintaining",
+      "tags": ["typst"],
+      "start": "2025-11",
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://github.com/YukariChiba/peering-form"
+        }
+      ]
+    },
+    {
+      "name": "agentvalues",
+      "desc": "基于当下 Ingress 玩家群体状况设计的娱乐性立场测试。",
+      "status": "finished",
+      "tags": ["javascript"],
+      "start": "2025-12",
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://github.com/YukariChiba/agentvalues"
+        },
+        {
+          "icon": "web",
+          "url": "https://agentvalues.0x7f.cc"
+        }
+      ]
+    },
+    {
+      "name": "flapcollector",
+      "desc": "DN42 Flapalerted 信息收集器。",
+      "status": "maintaining",
+      "tags": ["javascript", "python"],
+      "start": "2025-12",
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://github.com/YukariChiba/flapcollector"
+        },
+        {
+          "icon": "web",
+          "url": "https://flap42-data.strexp.net/"
+        }
+      ]
+    },
+    {
+      "name": "export.sh",
+      "desc": "netease-cloud-music-gtk4 音乐导出。",
+      "status": "maintaining",
+      "tags": ["bash"],
+      "start": "2025-10",
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://gist.github.com/YukariChiba/923d9e5beb432945615eb340be15866a"
+        }
+      ]
+    },
+    {
       "name": "postcards",
       "desc": "自己设计的明信片合集。",
       "status": "maintaining",
