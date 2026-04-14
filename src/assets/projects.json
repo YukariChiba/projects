@@ -1,6 +1,34 @@
 {
   "projects": [
     {
+      "name": "AgenticInit",
+      "desc": "The world's first AI-native Linux `init` system (PID 1) [april fool]",
+      "status": "finished",
+      "lang": ["golang"],
+      "topic": ["llm"],
+      "start": "2026-04",
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://github.com/YukariChiba/AgenticInit"
+        }
+      ]
+    },
+    {
+      "name": "AgenticAttorney",
+      "desc": "基于 AutoGen 的逆转裁判风格辩论生成器。",
+      "status": "maintaining",
+      "lang": ["python"],
+      "topic": ["llm"],
+      "start": "2026-03",
+      "link": [
+        {
+          "icon": "github",
+          "url": "https://github.com/YukariChiba/AgenticAttorney"
+        }
+      ]
+    },
+    {
       "name": "hass_companieshouse",
       "desc": "Home Assistant 获取英国公司信息的插件。",
       "status": "maintaining",
